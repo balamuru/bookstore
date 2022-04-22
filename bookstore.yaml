@@ -7,7 +7,7 @@ info:
 servers:
   # Added by API Auto Mocking Plugin
   - description: SwaggerHub API Auto Mocking
-    url: https://virtserver.swaggerhub.com/vgb/bookstore/1.0  
+    url: https://localhost:8080/vgb/bookstore/1.0  
 paths:
   "/shelves":
     get:

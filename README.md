@@ -1,6 +1,8 @@
 
 
 ## Generating Golang Server Stubs / API code 
+The following instructions are a "somewhat more detailed" adaptation of instructions described in 
+
 * Download swagger codegen (to ~/apps in this example)
 * Execute the following to generate the golang server stub in the app directory
 ```

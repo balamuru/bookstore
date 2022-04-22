@@ -4,7 +4,7 @@ info:
   description: A simple Bookstore API example.
   version: "1.0"
 servers:
-- url: https://virtserver.swaggerhub.com/vgb/bookstore/1.0
+- url: https://localhost:8080/vgb/bookstore/1.0
   description: SwaggerHub API Auto Mocking
 security:
 - api_key: []
