@@ -24,13 +24,14 @@ import (
 )
 
 func main() {
-	log.Printf("Server started")
+	log.Printf("Server started !!!")
 
 	router := sw.NewRouter()
 	
 	router.HandleFunc("/", handler).Methods("GET")
 
 	log.Fatal(http.ListenAndServe(":8080", router))
+	log.Printf("Server started 2 !!!")
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
